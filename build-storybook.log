@@ -1,0 +1,15 @@
+@storybook/cli v7.0.0-beta.53
+
+info => Cleaning outputDir: /var/folders/lj/wh078yc1207fpd7xzh5j824m0000gn/T/chromatic--81489-wbDBkghG1CIr
+info => Loading presets
+info => Building manager..
+info => Manager built (155 ms)
+info => Copying static files: /Users/admin/Desktop/transitions/node_modules/@storybook/manager/static at /var/folders/lj/wh078yc1207fpd7xzh5j824m0000gn/T/chromatic--81489-wbDBkghG1CIr/sb-common-assets
+vite v4.1.4 building for production...
+
+./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+transforming...
+✓ 32 modules transformed.
+[vite:esbuild] parsing /Users/admin/Desktop/transitions/tsconfig.node.json failed: Error: ENOENT: no such file or directory, open '/Users/admin/Desktop/transitions/tsconfig.node.json'
+file: /Users/admin/Desktop/transitions/stories/ListTransition.stories.ts
+[?25l[2K[1G[36m?[39m [1mWould you like to send crash reports to Storybook?[22m [90m›[39m [90m(Y/n)[39m
