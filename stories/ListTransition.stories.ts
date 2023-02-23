@@ -32,7 +32,7 @@ const Template = (args) => ({
       <button @click="remove" class="bg-indigo-700 text-white rounded-xl px-3 py-2">Remove</button>
       <button @click="shuffleOptions" class="bg-indigo-700 text-white rounded-xl px-3 py-2">Shuffle</button>
     </div>
-    <list-transition v-bind="args" tag="div" class="flex mx-auto flex-col gap-3 justify-center relative w-[700px]">
+    <list-transition v-bind="args" tag="div" class="flex mx-auto flex-col gap-3 justify-center relative w-100">
       <ListItem v-for="opt in options" :key="opt" />
     </list-transition>`,
 });
